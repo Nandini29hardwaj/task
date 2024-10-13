@@ -1,0 +1,63 @@
+.navbar{
+  background-color: blueviolet;
+}
+.container-fluid{
+  width: 90%;
+  /* background-color: pink; */
+}
+body{
+ 
+  background-color: #264653;
+}
+
+.navbar-brand{
+  color: black;
+}
+.me-2{
+  width: 45% !important;
+  border-radius: 8px;
+}
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.addNoteContainer{
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.input_title{
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  margin-bottom: 6px;
+}
+
+.input_descp{
+  border: none;
+}
+
+.button_save{
+  border-radius: 10px;
+}
+
+.card{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card_btns{
+  border-radius: 50%;
+  padding: 7px;
+}
+.btn-warning{
+  background-color: #E76F51;
+  border:1px solid rgb(231, 233, 237);
+  color:#F0F3F5;
+}
+.btn-warning:hover{
+  background-color: rgb(244, 201, 215);
+  border: 2px solid white;
+}
